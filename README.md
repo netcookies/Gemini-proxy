@@ -22,3 +22,38 @@ curl https://generativelanguage.googleapis.com/v1beta/models/gemini-pro?key=$API
 ```shell
 curl https://gemini.aivvm.com/v1beta/models/gemini-pro?key=$API_KEY
 ```
+
+## Deployment
+
+Click the button below to deploy this worker to your Cloudflare account:
+
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/netcookies/Gemini-proxy)
+
+## Local Development
+
+1. Install Wrangler:
+```bash
+npm install -g wrangler
+```
+
+2. Login to your Cloudflare account:
+```bash
+wrangler login
+```
+
+3. Start the development server:
+```bash
+wrangler dev
+```
+
+## Manual Deployment
+
+Deploy to Cloudflare Workers using Wrangler:
+
+```bash
+wrangler deploy
+```
+
+## License
+
+MIT
